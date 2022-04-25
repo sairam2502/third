@@ -1,0 +1,54 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgIBwYHCAgHCgcHBw0HBwcIBw8IDQcNFREiFhURFR8YKCggGBolJxMdMTEhJikrLi8uIx8zOD84Nyg5LisBCgoKDQ0NDg0NDzcZFRktKysrKzcrKy0rKysrKysrKysrLS0rKzcrKysrKysrKysrLSsrKysrKysrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAACAAEFB//EAB4QAQEAAQQDAQAAAAAAAAAAAAARIQEiMVECkdES/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQAEBf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwD09FFHPcyBFCjBBBUJkUEGKFGAQUTIhBihRkEUGMhsgEGMOMiEFkKKAQYo1KKDGQ4yAQYw4yIQWQooBBjIUSUCIooBBYUZEGJqCYkkkkknUjCijW3QWQooIIMZCiAgxhRRKDGQooIILCUUEGMhRQCBESiUBQoyAQYoTEIMYcZAIKKMgUGKExQQYyGyCCDGQ4yIQWHGQKDGQolBBjCUAgsKKIR1YoUZGuOhBjIbIlBjIcZAIMZDjIoILCigEGMhRJQYwlAILIUUAgxhJQQYyFFBBAiJRKAoUUAgRQkhAihRQCAijIlBiKMEEGKEyCCDGQ4yIQUUZAo6zIUUbHQgRQkhAiKMgggxQoyCKDFCZEIMUKMgEGMhxkQgooyAQYyHGJQYw2QCCyHGRCDGEhBBZDjIIoMZDYhBZCigEGMhRKCBFCUCgIoyIQYoUYII60ZDZGx0ILIcZAIMYUSigshRQCDGQokICKKAQWQoxRQYoUQECKEoBAihRkQgooyCKDFCjIhBihMgEFQoyIQYijBFBUKMgggxkOMQgsOMgEGMhRKKOrEUZGx0IKKMgggxQowQQYyGyIQWHGQKDGQokILISgEGMhRIQWQ2QKCyFFFBBjIUQggRFFAIEUKKJQIijIBBUKMiEGKEgICKMiEGKFGCKCiZFBHWjIUUa3QgRQoohAihRQKBFCiiEBFGQQQYoUYoIMUJkAgxhxkCgxkOMiEFEyAQYyHGIQYyGyBQWFFFBBjISgggxkJRCDGQooFAiKKAQWQoooIMZCQEdWMNkbHQgshxkCgxkJIQWQ4yAQYyFFEIMZCigUCKFFEICKKAQYyFGKCMjISEUCIooBAihRkQgomQCDFCjIlBjDZAIKKMiggshRQQQYyGyIQYyHGQKOqoUZGx0IKJgggxQoyIQYiZAoKhRkQgxkNgEFkOMiEGMhxgUGMhxkEEGMhRRCCwooBBZCiiigxkKIQQIiiiEBQooBAiKMUEGKFGQKDFCSECIoyAR1Uk1ugoyNSUGIlAIChRkQgxFGCCCoUZFBBihIKAijIhBihRgggxQmRCDGQ4yBQYyHGRQQYyHGQCDGHGQCCyFFFFBjISEEGMhRRCCyFFAIMYUSijopJpbUkkkkkkkklGRJBRkSCTIkgoxIBMiSDIokAxJJMijEAokgGRRJJkUSAZFEkGQfP9YnecViAW68aTvll88bdPiSS3dac+m6WZ5SAf/9k=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+    .form-input{
+        width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+    color: #000080;
+    font-weight : bold;
+    opacity: .5;
+    }
+    input {font-weight:bold;}
+    button {
+    
+    width: 65%;
+    background-color: #008B8B	; 
+    border: none;
+    color: white;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+      
+    }
+    .cards{
+      display: grid;
+      grid-template-columns: repeat(auto-fit,
+      minmax(200px, 1fr));
+      gap : 20px;
+  }
+  card{
+      width:50%;
+  }
+  .home {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+  }
+h6{
+      color: black;
+      font-size: 30px;
+  } 
